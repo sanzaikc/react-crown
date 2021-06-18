@@ -6,6 +6,8 @@ import CollectionPreview from "../../components/collection-preview/collection-pr
 
 import SHOP_DATA from "./shop.data";
 
+import "./shop.styles.scss";
+
 class ShopPage extends React.Component {
   constructor(props) {
     super(props);
