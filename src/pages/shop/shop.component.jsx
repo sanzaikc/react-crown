@@ -7,7 +7,6 @@ import Collection from "../collection/collection.component";
 import "./shop.styles.scss";
 
 const ShopPage = ({ match }) => {
-  console.log(match);
   return (
     <div className="shoppage">
       <Route exact path={match.path} component={CollectionOverview} />
